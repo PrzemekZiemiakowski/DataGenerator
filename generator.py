@@ -52,8 +52,9 @@ def Czesc():
     Cena=random.randint(1500,4000)
     return random.choice(Opis),Cena
 def Jednostka():
+    typ = ["Powietrzna", "Ladowa", "Morska"]
     Nazwa=["Samodzielny Batalion Łączności KBW","Dowództwo 16 Brygady Wojsk Ochrony Pogranicza","4 Pułk KBW","33.Batalion Łączności","Batalion Mostowy","17.Pułk Piechoty"]
-    return random.choice(Nazwa)
+    return random.choice(Nazwa),random.choice(typ)
 def Manewry():
     Poczatek,Koniec=startAndEndGen()
     return Poczatek,Koniec
