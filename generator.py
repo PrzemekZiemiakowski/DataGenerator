@@ -70,4 +70,3 @@ def Adres():
 def Dostawca():
     Nazwa=["Accuracy International","Beretta Holdinga","Winchester Repeating Arms Company","Herstal Group","Israel Military Industries"]
     return random.choice(Nazwa)
-
